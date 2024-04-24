@@ -183,12 +183,16 @@ var generateRandomId = function generateRandomId() {
 var typeToClassLookup = {
   1: options.classes.backgroundSuccess,
   success: options.classes.backgroundSuccess,
+
   2: options.classes.backgroundWarning,
   warning: options.classes.backgroundWarning,
+
   3: options.classes.backgroundError,
   error: options.classes.backgroundError,
+
   4: options.classes.backgroundInfo,
   info: options.classes.backgroundInfo,
+  
   5: options.classes.backgroundNeutral,
   neutral: options.classes.backgroundNeutral
 };
